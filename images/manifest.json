@@ -88,6 +88,87 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "https://susannaeklund.github.io/IIIFTraining_test_NLF_S/images/bracelet-NHA/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "bracelet-NHA"
+                ]
+            },
+            "height": 5792,
+            "width": 8688,
+            "items": [
+                {
+                    "id": "https://susannaeklund.github.io/IIIFTraining_test_NLF_S/images/bracelet-NHA/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://susannaeklund.github.io/IIIFTraining_test_NLF_S/images/bracelet-NHA/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://susannaeklund.github.io/IIIFTraining_test_NLF_S/images/bracelet-NHA/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 272,
+                                                "height": 181
+                                            },
+                                            {
+                                                "width": 543,
+                                                "height": 362
+                                            },
+                                            {
+                                                "width": 1086,
+                                                "height": 724
+                                            },
+                                            {
+                                                "width": 2172,
+                                                "height": 1448
+                                            },
+                                            {
+                                                "width": 4344,
+                                                "height": 2896
+                                            },
+                                            {
+                                                "width": 8688,
+                                                "height": 5792
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 8688,
+                                        "@id": "https://susannaeklund.github.io/IIIFTraining_test_NLF_S/images/bracelet-NHA",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 5792,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://susannaeklund.github.io/IIIFTraining_test_NLF_S/images/bracelet-NHA/canvas/"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
