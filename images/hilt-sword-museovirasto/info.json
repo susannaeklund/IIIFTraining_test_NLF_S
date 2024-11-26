@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 163,
+    "height" : 130
+  }, {
+    "width" : 325,
+    "height" : 260
+  }, {
+    "width" : 650,
+    "height" : 520
+  }, {
+    "width" : 1300,
+    "height" : 1040
+  }, {
+    "width" : 2600,
+    "height" : 2080
+  }, {
+    "width" : 5200,
+    "height" : 4160
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 5200,
+  "@id" : "https://susannaeklund.github.io/IIIFTraining_test_NLF_S/images/hilt-sword-museovirasto",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 4160
+}
