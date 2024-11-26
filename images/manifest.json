@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://susannaeklund.github.io/IIIFTraining_test_NLF_S/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in susannaeklund/IIIFTraining_test_NLF_S project"
+        ]
+    },
+    "items": []
+}
