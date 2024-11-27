@@ -1,0 +1,170 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://susannaeklund.github.io/IIIFTraining_test_NLF_S/manifests/manifest1_muokattu.json",
+  "@type" : "sc:Manifest",
+  "label" : "Susanna's first manifest",
+  "metadata" : [ {
+    "label" : "Valmistusaika",
+    "value" : [ {
+      "@value" : "viimeistään 1790",
+      "@language" : "fi"
+    }, {
+      "@value" : "1790 latest",
+      "@language" : "en"
+    } ]
+  }, {
+    "label" : "Materiaali",
+    "value" : [ {
+      "@value" : "metalli/messinki",
+      "@language" : "fi"
+    }, {
+      "@value" : "metal/brass",
+      "@language" : "en"
+    } ]
+  } ],
+  "description" : [ {
+    "@value" : "Tässä on kokoelma esineistöä ",
+    "@language" : "fi"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "Museovirasto/Kansallismuseo",
+  "sequences" : [ {
+    "@id" : "http://cf8fb094-b6f6-4cb6-8b17-21a3a1cb827c",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingDirection" : "left-to-right",
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://7123a161-901c-4607-b111-ea3ef8b73001",
+      "@type" : "sc:Canvas",
+      "label" : "Hilt of a sword",
+      "height" : 4160,
+      "width" : 5200,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b6901254-0ad2-4e83-852f-ae363cb7faa9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fsusannaeklund%2FIIIFTraining_test_NLF_S%2Fhilt-sword-museovirasto/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fsusannaeklund%2FIIIFTraining_test_NLF_S%2Fhilt-sword-museovirasto",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4160,
+          "width" : 5200
+        },
+        "on" : "http://7123a161-901c-4607-b111-ea3ef8b73001"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://758d0e25-7b80-486a-96bc-62fde7034a31",
+      "@type" : "sc:Canvas",
+      "label" : "Bird buckle",
+      "height" : 5792,
+      "width" : 8688,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://71151c9c-21dc-4846-8bde-2aa71b0f6434",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fsusannaeklund%2FIIIFTraining_test_NLF_S%2Fbird-buckle-NHA/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fsusannaeklund%2FIIIFTraining_test_NLF_S%2Fbird-buckle-NHA",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 5792,
+          "width" : 8688
+        },
+        "on" : "http://758d0e25-7b80-486a-96bc-62fde7034a31"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4dbfd958-1206-4f3f-b246-e885b9eec2ff",
+      "@type" : "sc:Canvas",
+      "label" : "Sword hilt level0",
+      "height" : 4160,
+      "width" : 5200,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e2141e0a-6ae1-4a59-bdf7-318da9debe9e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://susannaeklund.github.io/IIIFTraining_test_NLF_S/images/hilt-sword-museovirasto/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://susannaeklund.github.io/IIIFTraining_test_NLF_S/images/hilt-sword-museovirasto",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 4160,
+          "width" : 5200
+        },
+        "on" : "http://4dbfd958-1206-4f3f-b246-e885b9eec2ff"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://91c140a9-7072-4ba6-8b95-c355f14c5d86",
+      "@type" : "sc:Canvas",
+      "label" : "bracelet",
+      "height" : 5792,
+      "width" : 8688,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d6f830fe-f621-4d3d-b12b-1e28cfcfb157",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fsusannaeklund%2FIIIFTraining_test_NLF_S%2Fbracelet-NHA/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fsusannaeklund%2FIIIFTraining_test_NLF_S%2Fbracelet-NHA",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 5792,
+          "width" : 8688
+        },
+        "on" : "http://91c140a9-7072-4ba6-8b95-c355f14c5d86"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Objects",
+    "canvases" : [ "http://7123a161-901c-4607-b111-ea3ef8b73001", "http://758d0e25-7b80-486a-96bc-62fde7034a31", "http://4dbfd958-1206-4f3f-b246-e885b9eec2ff", "http://91c140a9-7072-4ba6-8b95-c355f14c5d86" ]
+  } ]
+}
