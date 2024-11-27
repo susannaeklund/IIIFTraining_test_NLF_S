@@ -1,0 +1,13 @@
+{
+  "id" : "https://susannaeklund.github.io/IIIFTraining_test_NLF_S/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in susannaeklund/IIIFTraining_test_NLF_S project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://susannaeklund.github.io/IIIFTraining_test_NLF_S/manifests/manifest1_muokattu.json",
+    "label" : "Susanna's first manifest"
+  } ]
+}
